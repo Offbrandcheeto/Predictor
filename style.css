@@ -1,0 +1,88 @@
+/* Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&display=swap');
+
+/* Body and Main Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Indie Flower', cursive;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+/* Heading & Question */
+
+.heading {
+  font-size: 4rem;
+}
+
+.question {
+  font-size: 2rem;
+}
+
+/* Margin Class */
+
+.m {
+  margin-bottom: 1rem;
+}
+
+/* Input */
+
+input {
+  width: 50%;
+  height: 5rem;
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: #ddd 2px solid;
+  outline: 0;
+}
+
+/* Button */
+
+.btn {
+  cursor: pointer;
+  outline: 0;
+  border: 0;
+  padding: 1rem 2.5rem;
+  background-color: #333;
+  color: #fff;
+  border-radius: 1rem;
+  font-size: 3rem;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Media */
+
+@media (max-width: 1000px) {
+  .heading {
+    font-size: 3rem;
+  }
+
+  input {
+    width: 75%;
+  }
+
+  .question {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    padding: 0.5rem 2rem;
+  }
+}
